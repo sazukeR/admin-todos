@@ -1,8 +1,21 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  reactCompiler: true,
+ images: {
+  remotePatterns: [
+   {
+    protocol: "https",
+    hostname: "tailus.io",
+    pathname: "/**",
+   },
+   {
+    protocol: "https",
+    hostname: "img.freepik.com",
+   },
+  ],
+ },
+ /* config options here */
+ reactCompiler: true,
 };
 
 export default nextConfig;
