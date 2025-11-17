@@ -3,7 +3,8 @@
 
 
 
-/postgres
+/postgres_data
+
 .env
 
 # dependencies
