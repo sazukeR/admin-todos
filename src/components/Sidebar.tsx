@@ -6,6 +6,7 @@ import { CiLogout } from "react-icons/ci";
 import tailusLogo from "../../public/tailus.svg";
 import { SidebarItem } from "./SidebarItem";
 import {
+ IoBalloonOutline,
  IoCalendarOutline,
  IoCheckboxOutline,
  IoListOutline,
@@ -26,6 +27,11 @@ const menuItems = [
   icon: <IoListOutline />,
   path: "/dashboard/server-todos",
   title: "Server actions",
+ },
+ {
+  icon: <IoBalloonOutline />,
+  path: "/dashboard/cookies",
+  title: "Cookies",
  },
 ];
 
