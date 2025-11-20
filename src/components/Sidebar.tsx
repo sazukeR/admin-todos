@@ -7,6 +7,7 @@ import tailusLogo from "../../public/tailus.svg";
 import { SidebarItem } from "./SidebarItem";
 import {
  IoBalloonOutline,
+ IoBasketOutline,
  IoCalendarOutline,
  IoCheckboxOutline,
  IoListOutline,
@@ -32,6 +33,11 @@ const menuItems = [
   icon: <IoBalloonOutline />,
   path: "/dashboard/cookies",
   title: "Cookies",
+ },
+ {
+  icon: <IoBasketOutline />,
+  path: "/dashboard/products",
+  title: "Products",
  },
 ];
 
